@@ -16,7 +16,7 @@
         <i class='bx bx-menu' style="cursor: pointer;"></i>
 
         <a href="../index.php">
-            <div class="logo-name"><span>Mert</span>Kula</div>
+            <div class="logo-name"><span>Haylaz</span>Game</div>
         </a>
 
     </div>
