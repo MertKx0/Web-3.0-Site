@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../Style-Css/820Pixel.css">
     <link rel="stylesheet" href="../Style-Css/375Pixel.css">
     <link rel="stylesheet" href="../Style-Css/412Pixel.css">
-    <title>Mert-Kula</title>
+    <title>Haylaz-Game</title>
 </head>
 
 <body>
