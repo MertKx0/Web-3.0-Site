@@ -1,0 +1,96 @@
+/*
+390 Pixeli Değiştiriyor
+İphone 12 Pro
+iphone se
+pixel 5
+s8+
+s20 ultra
+*/
+
+/*
+412Pixel Samsung S20 Ultra ve İphone 12 Pro Değişiyor
+*/
+@media screen and (max-width: 412px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 16rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+/*
+411Pixel Pixel 5 Değişiyor
+*/
+@media screen and (max-width: 411px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 15rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+/*
+375Pixel İphone SE Değişyor
+*/
+@media screen and (max-width: 375px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 14rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+}
+
+/*
+360Pixel Samsung S8+ Değişiyor
+*/
+@media screen and (max-width: 360px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 13rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 1.5rem;
+    }
+}
