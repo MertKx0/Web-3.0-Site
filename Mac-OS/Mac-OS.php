@@ -102,7 +102,7 @@
 
 </div>
 
-<script src="../index.js"></script>
+<script src="../Js/index.js"></script>
 </body>
 
 </html>
