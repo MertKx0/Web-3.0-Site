@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Style-Css/820Pixel.css">
+    <link rel="stylesheet" href="../Style-Css/375Pixel.css">
+    <link rel="stylesheet" href="../Style-Css/412Pixel.css">
     <title>Haylaz-Game</title>
 </head>
 
@@ -37,9 +40,9 @@
     <!-- Navbar -->
     <nav>
 
-        <form action="#">
-            <div class="form-input" style="display: none;">
-                <input type="search" placeholder="Search...">
+        <form method="post">
+            <div class="form-input">
+                <input type="search" name="aranan_class" placeholder="Search...">
                 <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
             </div>
         </form>

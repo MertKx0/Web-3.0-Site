@@ -44,7 +44,7 @@
     <nav>
 
         <form method="post">
-            <div class="form-input" style="">
+            <div class="form-input">
                 <input type="search" name="aranan_class" placeholder="Search...">
                 <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
             </div>
@@ -66,76 +66,12 @@
         </div>
 
         <?php
-        // Sınıf ve içeriklerin bir eşleştirme dizisi
-        $siniflar_ve_icerikler = array(
-            'Roblox' => '<div class="bottom-data" style="float: left;">
-            <div class="orders">
-
-                <div class="resim" style="float: left;">
-                    <img src="../images/android/Roblox.webp">
-                </div>
-                <div class="yazi" style="float: left;">
-                    <b>ROBLOX</b>
-                </div><br>
-                <div class="link" style="float: left; margin-top: 1rem; font-size: 1.2rem;">
-                    <button>
-                        <a href="https://d.apkpure.com/b/APK/com.roblox.client?version=latest"><i class="bx bxs-download"></i><b>İ N D İ R</b></a>
-                    </button>
-                </div>
-
-            </div>
-        </div>',
-            'BrawlStars' => '<div class="bottom-data" style="float: left;">
-            <div class="orders" style="margin-left: 5px;">
-
-                <div class="resim" style="float: left;">
-                    <img src="../images/android/BrawlStars.webp">
-                </div>
-                <div class="yazi" style="float: left;">
-                    <b>Brawl</b><br>
-                    <b>Stars</b>
-                </div><br>
-                <div class="link" style="float: left; margin-top: 1rem; font-size: 1.2rem;">
-                    <button>
-                        <a href="https://d.apkpure.com/b/APK/com.supercell.brawlstars?version=latest"><i class="bx bxs-download"></i><b>İ N D İ R</b></a>
-                    </button>
-                </div>
-
-            </div>
-        </div>',
-            'sinif3' => 'Bu sınıfın içeriği burada.',
-
-        );
-
-
-        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['aranan_class'])) {
-            $aranan_class = $_POST['aranan_class'];
-
-
-            if (array_key_exists($aranan_class, $siniflar_ve_icerikler)) {
-                echo "<h2>$aranan_class İçeriği:</h2>";
-                echo '<div class="icerik" id="' . $aranan_class . '">' . $siniflar_ve_icerikler[$aranan_class] . '</div>';
-            } else {
-                echo "<h2>$aranan_class Bulunamadı</h2>";
-            }
-        }
+        require_once '../APK-arama.php';
+        $aramam=new \arama\aramaclass();
+        $aramam->icerik();
         ?>
 
-        <script>
-            window.onload = function () {
-                <?php
-                $sinif_isimleri = array_keys($siniflar_ve_icerikler);
-                foreach ($sinif_isimleri as $sinif) {
-                    echo "document.getElementById('$sinif').style.display = 'block';";
-                }
-                ?>
-            }
-        </script>
-
-
-
-
-        <div class="bottom-data" style="float: left;">
+        <div class="bottom-data" style="float: left; margin-left: 5px;">
             <div class="orders">
 
                 <div class="resim" style="float: left;">
