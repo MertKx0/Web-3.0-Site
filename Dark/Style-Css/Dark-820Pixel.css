@@ -1,0 +1,26 @@
+/*
+820Pixel İpad Air ve İpad Mini Değişiyor
+*/
+@media screen and (max-width: 820px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 17rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .sidebar .logo a .logo-name span{
+        font-size: 14px;
+    }
+}

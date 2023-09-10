@@ -1,0 +1,26 @@
+/*
+İphone XR'ı Değiştiriyor.
+*/
+
+@media screen and (max-width: 668px) {
+    .content main .bottom-data .orders .link button{
+        border-radius: 15px;
+        width: 16rem;
+        height: 2.5rem;
+        background: #388E3C;
+    }
+
+    .content main .bottom-data .orders .resim img{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .content main .bottom-data .orders .yazi b{
+        margin-left: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .sidebar .logo a .logo-name span{
+        font-size: 14px;
+    }
+}

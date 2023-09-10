@@ -46,8 +46,13 @@
                 <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
             </div>
         </form>
-        <input type="checkbox" id="theme-toggle" hidden style="display: none;">
-        <label for="theme-toggle" class="theme-toggle" style="display: none;"></label>
+        <button onclick="yonlendir()" style="border-radius: 5px; background: white; text-align: center; font-size: medium;"><i class='bx bxs-moon'></i></button>
+
+        <script>
+            function yonlendir() {
+                window.location.href = "../Dark/Windows/Dark-Uygulamalar.php";
+            }
+        </script>
 
 
     </nav>
